@@ -1,0 +1,64 @@
+# Environment & secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Models (large binary files)
+Models/*
+!Models/densenet121_best.keras
+models_optional/
+*.keras
+!densenet121_best.keras
+*.h5
+*.hdf5
+*.pt
+*.pth
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Exclude Specific Folders
+TestResults/
+scratch/
+output_media/
+Reference(Example)/
+Recordings/
+Lung Disease Dataset/
+
+

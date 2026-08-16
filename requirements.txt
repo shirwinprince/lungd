@@ -1,0 +1,25 @@
+# ── Core framework (FastAPI backend) ─────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# ── ML / Image processing ────────────────────────────────────────────────
+tensorflow>=2.16.0
+numpy>=1.26.0
+Pillow>=10.0.0
+
+# ── Data validation (pulled in by FastAPI, listed explicitly) ────────────
+pydantic>=2.0.0
+
+# ── File upload support (FastAPI) ────────────────────────────────────────
+python-multipart>=0.0.9
+
+# ── Database (Supabase) ─────────────────────────────────────────────────
+supabase>=2.0.0
+python-dotenv>=1.0.0
+
+# ── HTTP requests (AI vision validation) ────────────────────────────────
+requests>=2.31.0
+
+# ── PDF report generation ───────────────────────────────────────────────
+fpdf2>=2.7.0
+
