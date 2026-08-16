@@ -235,8 +235,4 @@ Through building LungScan AI, I gained practical experience in:
 
 ---
 
-### 👨‍💻 Author
-**BALAMURUGAN P G**  
-📧 balamuruganpg@outlook.com  
 
-*If you found this project interesting, feel free to reach out or explore my other repositories!*
